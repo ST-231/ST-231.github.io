@@ -1,13 +1,13 @@
 ---
 layout: post
-title: "一个模拟链条的maya脚本"
+title: "游戏引擎应用课设——迷失脚印"
 date: 2025-06-12 10:00:00 +0800
 categories: [Unity]
 description: "for物理特效编程课设"
 img: fox_ui.jpg
 ---
 
-游戏引擎应用课设作品，有关一个狐狸家族的生存游戏
+游戏引擎应用课设作品，有关一个狐狸家族的生存游戏                                              
 
 # 迷失脚印 (The Lost Footprint) - 游戏引擎课设
 
