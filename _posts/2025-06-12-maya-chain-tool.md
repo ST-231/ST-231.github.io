@@ -9,7 +9,7 @@ mathjax: true
 ---
 
 for物理特效编程课设：
-这是一个基于PyMEL开发的自动化物理链条生成工具。绘制一条 NURBS 曲线，脚本即可沿曲线自动生成嵌套的链环几何体，并一键完成 Bullet Rigid Body 与 Constraints 的搭建。
+这是一个基于PyMEL开发的自动化物理链条生成工具。绘制一条 NURBS 曲线，脚本即可沿曲线自动生成嵌套的链环几何体，并一键完成 Bullet Rigid Body 与 Constraints 的搭建。balabala
 <!-- more -->
 
 ## 1. 坐标系设置
@@ -39,6 +39,7 @@ $$Matrix = [Right, Up, Forward, Position]$$
 ---
 
 PS：最终完整代码为chain_with_ui.py。chain_genetare.py为具有基础功能但并不完善的早期版本，chain_genetare_v7.py为优化完善后的功能脚本，chain_with_ui.py是合并后的具有ui的脚本。
+
 
 
 
