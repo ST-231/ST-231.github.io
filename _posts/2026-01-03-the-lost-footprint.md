@@ -7,7 +7,11 @@ description: "for物理特效编程课设"
 img: fox_game/fox_ui.png
 ---
 
-游戏引擎应用课设作品，有关一个狐狸家族的生存游戏                                              
+游戏引擎应用课设作品，有关一个狐狸家族的生存游戏
+
+<!--more-->
+
+---
 
 # 迷失脚印 (The Lost Footprint) - 游戏引擎课设
 
