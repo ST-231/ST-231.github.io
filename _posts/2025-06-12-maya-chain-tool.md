@@ -5,6 +5,7 @@ date: 2025-06-12 10:00:00 +0800
 description: "for物理特效编程"
 img: chain_generate/chain_ui.png # Add image post (optional)
 fig-caption: # Add figcaption (optional)
+mathjax: true
 ---
 
 for物理特效编程课设：
@@ -38,6 +39,7 @@ $$Matrix = [Right, Up, Forward, Position]$$
 ---
 
 PS：最终完整代码为chain_with_ui.py。chain_genetare.py为具有基础功能但并不完善的早期版本，chain_genetare_v7.py为优化完善后的功能脚本，chain_with_ui.py是合并后的具有ui的脚本。
+
 
 
 
