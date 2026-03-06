@@ -7,7 +7,7 @@ img: i-rest.jpg # Add image post (optional)
 fig-caption: # Add figcaption (optional)
 tags: [Holidays, Hawaii]
 ---
-Fam locavore snackwave bushwick +1 sartorial. Selfies portland knausgaard synth. Pop-up for物理特效编程课设：这是一个基于PyMEL开发的自动化物理链条生成工具。绘制一条 NURBS 曲线，脚本即可沿曲线自动生成嵌套的链环几何体，并一键完成 Bullet Rigid Body 与 Constraints 的搭建。
+Fam locavore snackwave bushwick +1 sartorial. Selfies portland knausgaard synth. Pop-up fore-build the site to see your changes. 物理特效编程课设：这是一个基于PyMEL开发的自动化物理链条生成工具。绘制一条 NURBS 曲线，脚本即可沿曲线自动生成嵌套的链环几何体，并一键完成 Bullet Rigid Body 与 Constraints 的搭建。
 
 ## 1. 坐标系设置
 为了让链环沿曲线自然嵌套，通过计算曲线在该点的切线构建变换矩阵：
