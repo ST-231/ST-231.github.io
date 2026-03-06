@@ -12,10 +12,10 @@ author-img: My photo.jpg # add your photo
 about-author: |
   26届树莓技本科生，致力于计算机图形学ing。
   同人女一枚，梦想是可以给家产和oc们完整的一生（喂） # add description
-social-twitter: # add your Twitter handle
-social-facebook: # add your Facebook handle
+# social-twitter: # add your Twitter handle
+# social-facebook: # add your Facebook handle
 social-github: artemsheludko # add your Github handle
-social-linkedin: # add your Linkedin handle
+# social-linkedin: # add your Linkedin handle
 social-email: shiyue2025789@gmail.com # add your Email address
 
 # Disqus
@@ -31,7 +31,7 @@ plugins:
   - jekyll-paginate
   - jemoji
 
-paginate: 4
+paginate: 6
 paginate_path: "/page/:num"
 
 exclude: ["node_modules", "gulpfile.js", "package.json", "yarn.lock"]
