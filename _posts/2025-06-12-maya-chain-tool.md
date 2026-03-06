@@ -2,8 +2,8 @@
 layout: post
 title: "一个模拟链条的maya脚本"
 date: 2025-06-12 10:00:00 +0800
-description: ""
-img: ![界面截图](/assets/img/chain_generate/ui.jpg) # Add image post (optional)
+description: "for物理特效编程"
+img: chain_generate/ui.jpg # Add image post (optional)
 fig-caption: # Add figcaption (optional)
 ---
 
