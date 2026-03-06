@@ -40,8 +40,6 @@ for (int i = 0; i < currentVertices.Length; i++)
                 continue; // 不在影响高度范围内，跳过
             }
 
-            // -------------------------------------------------------------
-            // 新增：针对底部的衰减或限制
             // 让底部附近的形变效果减弱
             float bottomInfluenceReduction = 1.0f;
             if (vertexLocalPos.y < bottomDeadZoneHeight) // 如果顶点在底部死区内
@@ -49,8 +47,6 @@ for (int i = 0; i < currentVertices.Length; i++)
                 // 越接近底部，形变强度越小
                 bottomInfluenceReduction = Mathf.InverseLerp(minOverallHeightLimit, bottomDeadZoneHeight, vertexLocalPos.y); 
             }
-            // -------------------------------------------------------------
-
 
             float distanceToHitPoint = Vector3.Distance(vertexWorldPos, hitPoint);
 
@@ -68,10 +64,7 @@ for (int i = 0; i < currentVertices.Length; i++)
                 // 综合考虑底部影响衰减
                 Vector3 deformation = sculptDirectionLocal * sculptStrength * falloff * bottomInfluenceReduction; // <-- 应用底部衰减
 
-
                 Vector3 newVertexLocal = vertexLocalPos + deformation;
-
-                // ... (现有半径和高度限制代码) ...
 
                 currentVertices[i] = newVertexLocal;
             }
@@ -131,3 +124,4 @@ void PaintAtPixel(int px, int py, Color color, float size)
 ---
 
 * **GitHub 源码**：[查看 VR-Pottery 工程](https://github.com/ST-231/VR-Pottery)
+
