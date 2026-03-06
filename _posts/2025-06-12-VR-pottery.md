@@ -10,6 +10,8 @@ img: VR_Pottery/pottery.png
 
 Unity+XR+Pico，实现从制作陶土到绘制图案的陶艺全流程
 
+<!--more-->
+
 ---
 
 ## 项目简介
@@ -124,5 +126,6 @@ void PaintAtPixel(int px, int py, Color color, float size)
 ---
 
 * **GitHub 源码**：[查看 VR-Pottery 工程](https://github.com/ST-231/VR-Pottery)
+
 
 
