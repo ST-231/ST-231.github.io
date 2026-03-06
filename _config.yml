@@ -9,8 +9,9 @@ site-twitter: #if your site has a twitter account, enter it here
 # Author Settings
 author: 邵彤-ShaoTong # add your name
 author-img: My photo.jpg # add your photo
-about-author: 26届树莓技本科生，致力于计算机图形学ing。
-同人女一枚，梦想是可以给家产和oc们完整的一生（喂） # add description
+about-author: |
+  26届树莓技本科生，致力于计算机图形学ing。
+  同人女一枚，梦想是可以给家产和oc们完整的一生（喂） # add description
 social-twitter: # add your Twitter handle
 social-facebook: # add your Facebook handle
 social-github: artemsheludko # add your Github handle
