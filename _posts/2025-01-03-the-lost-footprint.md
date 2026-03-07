@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "游戏引擎应用课设——迷失脚印"
-date: 2025-06-12 10:00:00 +0800
+date: 2025-01-03 10:00:00 +0800
 categories: [Unity]
 description: "for物理特效编程课设"
 img: fox_game/fox_ui.png
