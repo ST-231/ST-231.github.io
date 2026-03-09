@@ -26,6 +26,8 @@ img: fox_game/fox_ui.png
 * 3.**云层与星空 (Clouds & Stars)**：
     * 使用 Noise 噪声贴图 + Cutoff 算法在 XZ 平面绘制云层，支持模糊度（Fuzziness）与移动速度调节。
     * 星星通过 `saturate` 判定仅在黑夜显示，并利用 `(1-cloud)` 判定实现云层遮挡效果。
+    * ![day night](https://github.com/user-attachments/assets/b872799c-07b5-4d8f-afac-5be98e67f9b7)
+
 * 4.**同步逻辑**：实现计时时钟（Clock），通过脚本驱动主光源旋转，确保天空表现与游戏时间完全同步。
 
 ### 2. UI 交互与菜单系统
